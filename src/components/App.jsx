@@ -35,7 +35,7 @@ export default class App extends Component {
     const stateArray = Object.keys(this.state);
     const total = this.countTotalFeedback();
     const positivePercentage = this.countPositiveFeedbackPercentage();
-    return (<div>
+    return (<div className="conteiner">
       
       <Section title="Please leave feedback">
         <FeedbackOptions options={stateArray} onLeaveFeedback={this.onLeaveFeedback} />

@@ -20,3 +20,21 @@ code {
   gap: 10px;
 
 }
+
+button::first-letter{
+  text-transform: uppercase;
+}
+
+button{
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  border-color: grey;
+  background-color: white;
+}
+
+.conteiner{
+  padding: 0px 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
