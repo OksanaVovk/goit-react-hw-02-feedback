@@ -1,15 +1,18 @@
 import React from 'react';
-const FeedbackOptions = ({ goodIncr, neutralIncr, badIncr }) => (
+// import capitalizeFirstLetter from './capitalizeFirtsLetter';
+
+const FeedbackOptions = ({ options, onLeaveFeedback }) => (
   <div className="feedback">
-    <button type="button" onClick={goodIncr}>
-      Good
-    </button>
-    <button type="button" onClick={neutralIncr}>
-      Neutral
-    </button>
-    <button type="button" onClick={badIncr}>
-      Bad
-    </button>
+    {options.map(option => (
+      <button
+        key={option}
+        name={option}
+        type="button"
+        onClick={onLeaveFeedback}
+      >
+        {option}
+      </button>
+    ))}
   </div>
 );
 export default FeedbackOptions;
