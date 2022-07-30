@@ -1,5 +1,4 @@
 import React from 'react';
-// import capitalizeFirstLetter from './capitalizeFirtsLetter';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => (
   <div className="feedback">
