@@ -14,18 +14,17 @@ code {
     monospace;
 }
 
-.feedback{
+.feedback {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-
 }
 
-button::first-letter{
+button::first-letter {
   text-transform: uppercase;
 }
 
-button{
+button {
   font-weight: bold;
   font-size: 20px;
   border-radius: 5px;
@@ -33,7 +32,7 @@ button{
   background-color: white;
 }
 
-.conteiner{
+.conteiner {
   padding: 0px 50px;
   font-weight: bold;
   font-size: 20px;
