@@ -11,8 +11,7 @@ export default class App extends Component {
     bad: 0,
   };
 
-  onLeaveFeedback = event => {
-    const btnN = event.currentTarget.name;
+  onLeaveFeedback = btnN => {
     this.setState(prevState => ({
       [btnN]: prevState[btnN] + 1,
     }));
